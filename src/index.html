@@ -7,31 +7,31 @@
 </head>
 <body>
   <!-- spacing -->
-   <div class="p-20">
-    <h2 class="mb-4">Spacing Section</h2>
-    <p>Tailwind helps us space things out with margin and padding</p>
+   <div class="p-20 bg-green-600 ">
+    <h2 class="mb-2 text-5xl font-bold text-green-300">Spacing Section</h2>
+    <p class="mb-6 text-green-100 text-xl">Tailwind helps us space things out with margin and padding</p>
 
-    <button class="mr-3 px-4 py-2">Learn More</button>
-    <button class="py-2 px-8">Sign Up</button>
+    <button class="mr-3 px-4 py-2 bg-purple-800 text-purple-300 rounded hover:bg-purple-600 transition duration-300">Learn More</button>
+    <button class="py-2 px-8 bg-yellow-700 hover:bg-yellow-500 text-yellow-300 rounded transition duration-300 shadow-lg">Sign Up</button>
    </div>
    <!-- box properties -->
     <!-- background, border, rounding, shadows -->
     <div class="p-20 bg-blue-400">
-        <h2>Box Properties</h2>
-        <div class="p-10 bg-yellow-100 rounded-lg border-2 border-yellow-300 shadow-2xl">I am a Box</div>
+        <h2 class="mb-4 text-4xl text-blue-200">Box Properties</h2>
+        <div class="p-10 bg-yellow-100 rounded-lg border-2 border-yellow-300 shadow-2xl text-yellow-800 text-center font-bold uppercase tracking-widest">I am a Box</div>
     </div>
     <!-- sizing and numbering -->
      <div class="py-10 px-20 bg-orange-400">
-        <button class="p-4 bg-green-200 rounded w-8">click me</button>
-        <button class="p-4 bg-green-200 rounded w-12">click me</button>
-        <button class="p-4 bg-green-200 rounded w-20">click me</button>
-        <button class="p-4 bg-green-200 rounded w-32">click me</button>
-        <button class="p-4 bg-green-200 rounded w-48 h-48">click me</button>
+        <button class="p-4 bg-orange-200 text-orange-700 rounded w-8">click me</button>
+        <button class="p-4 bg-orange-200 text-orange-700 rounded w-12">click me</button>
+        <button class="p-4 bg-orange-200 text-orange-700 rounded w-20">click me</button>
+        <button class="p-4 bg-orange-200 text-orange-700 rounded w-32">click me</button>
+        <button class="p-4 bg-orange-200 text-orange-700 rounded w-48 h-48">click me</button>
      </div>
      <!-- typography -->
     <div class="p-20  text-gray-800 text-lg">
-        <h2 class="mb-2 text-4xl text-gray-700 font-bold">Learning Tailwind is fun!</h2>
-        <h3 class="mb-7s text-2xl text-gray-500 tracking-wide">more fun than I expected</h3>
+        <h2 class="mb-2 text-5xl text-gray-700 font-bold">Learning Tailwind is fun!</h2>
+        <h3 class="mb-7 text-2xl text-blue-500 tracking-wide">more fun than I expected</h3>
 
         <p class="mb-7 leading-relaxed">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, a.
@@ -66,5 +66,20 @@
         <h1 class="text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-br from-white to-teal-8400">Whoa Gradients!</h1>
 
     </div>
+    <!-- container -->
+    <div class="py-20 bg-gray-200">
+        <div class="container mx-auto ">
+            <div class="bg-white p-10 rounded-lg shadow-lg relative">
+                <div class="absolute top-0 right-0 bg-red-500 text-red-200 rounded py-2 px-2 text-sm transform translate-x-2 -translate-y-2">
+                    Brand new
+                </div>
+                <h2 class="font-semibold text-4xl mb-3 text-gray-700 tracking-wider">Container</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem natus quam exercitationem quis repudiandae excepturi fuga laborum quas aliquid ducimus nobis, omnis dolor itaque modi totam eveniet dolore ad. Distinctio.
+                </p>
+            </div>
+        </div>
+    </div>
+
 </body>
 </html>
